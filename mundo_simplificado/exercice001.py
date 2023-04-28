@@ -6,4 +6,11 @@ print("Olá Mundo")
 
 """
 Correção: 
+print ("Olá, Mundo!")
+
+or 
+
+msg = "Olá, Mundo!"
+print(msg)
+
 """
