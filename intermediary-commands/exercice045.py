@@ -35,4 +35,43 @@ else:
 """
 Correção:
 
+from random import randint 
+
+itens = ('pedra', 'papel', 'tesoura')
+computador = radint(0, 2)
+print('''Suas opções:
+[ 0 ] Pedra
+[ 1 ] Papel
+[ 2 ] Tesoura''')
+jogador = int(input('Qual é a sau jogada? '))
+print(f'Compuador jogou {itens[computador]}')
+print(f'Jogador jogou {itens[jogador]}')
+if computador == 0:
+    if jogador == 0:
+        print('EMPATE!')
+    elif jogador == 1:
+        print('Jogador venceu!')
+    elif jogador == 3:
+        print('Computador venceu!')
+    else:
+        print('Jogada Inválida')
+elif computador == 1:
+    if jogador == 0:
+        print('Computador Venceu!')
+    elif jogador == 1:
+        print('EMPATE!')
+    elif jogador == 3:
+        print('Jogador Venceu!')
+    else:
+        print('Jogada Inválida')
+elif computador == 2:
+    if jogador == 0:
+        print('Jogador Venceu!')
+    elif jogador == 1:
+        print('Computador Venceu!')
+    elif jogador == 3:
+        print('EMPATE!')
+    else:
+        print('Jogada Inválida')
+
 """

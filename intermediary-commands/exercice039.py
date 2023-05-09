@@ -20,4 +20,23 @@ else:
 """
 Correção:
 
+
+from datetime import date
+atual = date.today().year
+nasc = int))input('Ano de nascimento: '))
+idade = atual - nasc
+print(f'Quem nasceu em {nasc} tem {idade} anos em {atual}.')
+if idade == 18:
+    print('Você tem que se alistar imediatamente!')
+elif idade < 18:
+    saldo = 18 - idade 
+    ano = atual + saldo
+    print('Ainda faltam {saldo} anos para o alistamento.')
+    print('Seu alistamento será em {}')
+elif idade > 18:
+    saldo = idade - 18
+    ano = atual - saldo
+    print('Você já deveria ter se alistado há {saldo} anos.')
+    print('Seu alistamento foi em {}')
+
 """

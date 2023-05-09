@@ -17,4 +17,15 @@ else:
 """
 Correção:
 
+nota1 = float(input('Primeira Nota: '))
+nota2 = float(input('Segunda Nota: '))
+media = (nota1 + nota2) / 2
+print(f'Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}')
+if 7 > media >= 5:
+    print('O aluno está de Recuperação.')
+elif media < 5:
+    print('O aluno está REPROVADO!')
+elif media >= 7:
+    print('O aluno está APROVADO!')
+
 """
